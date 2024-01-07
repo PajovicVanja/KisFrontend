@@ -1,0 +1,57 @@
+.TopFifty {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .TopFifty button {
+    background-color: #5b5b5b; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .TopFifty button:hover {
+    background-color: #000000;
+  }
+  
+  .TopFifty table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .TopFifty th,
+  .TopFifty td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .TopFifty th {
+    background-color: #333;
+    color: white;
+  }
+  
+  .TopFifty tr:nth-child(even) {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .TopFifty tr:hover {
+    background-color: #ddd;
+  }
+  
+  .TopFifty td {
+    font-size: 14px;
+  }
+  
+  .TopFifty th {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+  }
+  
